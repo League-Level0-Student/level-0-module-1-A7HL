@@ -11,7 +11,7 @@ public static void main(String[] args) {
 	
 	String name = JOptionPane.showInputDialog("What is your name?");
 	
-	if (name == "Bob") {
+	if (name.equals("Bob")) {
 		JOptionPane.showMessageDialog(null, "Hello Bob");
 	} else {
 		JOptionPane.showMessageDialog(null, "You're not Bob!!!");
